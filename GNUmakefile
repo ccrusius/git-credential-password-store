@@ -8,7 +8,7 @@ PROG = git-credential-password-store
 all: $(PROG)
 
 $(PROG): $(PROG).c
-	$(CC) -o $@ $< `pkg-config --cflags --libs glib-2.0`
+	$(CC) -o $@ $<
 	strip $@
 
 test: $(PROG)
