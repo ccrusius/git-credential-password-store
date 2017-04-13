@@ -1,9 +1,9 @@
 # Password Store Git Helper
 
 This is a [git] credential helper that uses [pass] as its backend. It
-assumes that the host is present in the [pass] entry name, and that
-the file itself contains either a [user:], [username:], or [login:]
-line.
+assumes that the host is present in the [pass] entry name (whether in
+the directory name or file name), and that the file itself contains
+either a `user:`, `username:`, or `login:` line.
 
 ## Installation
 
