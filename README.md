@@ -7,9 +7,12 @@ line.
 
 ## Installation
 
+Compile, install, and configure `git` to use it:
+
 ```sh
 make
 sudo make install
+git config --global credential.helper password-store
 ```
 
 See the `Makefile` for details.
