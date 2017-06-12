@@ -8,7 +8,7 @@ PROG = git-credential-password-store
 all: $(PROG)
 
 $(PROG): $(PROG).c
-	$(CC) -o $@ $<
+	$(CC) -std=c99 -o $@ $<
 	strip $@
 
 test: $(PROG)
